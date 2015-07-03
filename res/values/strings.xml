@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Numbers Go Round</string>
+    
+    <string name="select_mode">Select Mode</string>
+    <string name="select_mode_easy">Easy</string>
+    <string name="select_mode_hard">Hard</string>
+    <string name="select_mode_crazy">Crazy</string>
+    <string name="select_mode_easy_desc">Time : 30s\n\nCorrect Ans : 1pt + 15s</string>
+    <string name="select_mode_hard_desc">Time : 60s\n\nCorrect Ans : 3pt + 45s</string>
+    <string name="select_mode_crazy_desc">Time : 90s\n\nCorrect Ans : 5pt + 60s</string>
+    
+    <string name="score">Score</string>
+    <string name="reset">Reset</string>
+
+    <string name="time_up">TIME\'S UP!</string>
+    
+    <string name="play_again">Play Again</string>
+    <string name="best">Best</string>
+    <string name="share">Share</string>
+    <string name="top_scorers">Top Scorers</string>
+    <string name="achievements">Achievements</string>
+    
+    <string name="share_text">Hey Einstein, try this out: </string>
+    
+    <string name="got_it">Got it!</string>
+    
+    <string name="help_1">You must use all the numbers and operators to reach the target number! For e.g.In the puzzle below, you can\'t use 9x3 to get to 27</string>
+    <string name="help_2">Instead you should first use 9+6 to get to 15, then use 15x2 to get to 30 and finally 30-3 to get to the target number 27</string>
+    
+    <string name="hello_world">Hello world!</string>
+     <string name="admob_unit_id">ca-app-pub-6816050713890894/5726719164</string>
+    
+</resources>

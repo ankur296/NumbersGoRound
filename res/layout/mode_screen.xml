@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lay_mode_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/game_bg_cream"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/lay_mode_inner1"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+        <corp.seedling.numbersgoround.ui.CustomTextViewHeadingLarge
+            android:id="@+id/tv_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_mode" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay_mode_inner2"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="6"
+        android:gravity="top"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/lay_mode_inner3"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+
+            <corp.seedling.numbersgoround.ui.CustomTextView
+                android:id="@+id/tv_mode_easy"
+                android:layout_width="75dip"
+                android:layout_height="75dip"
+                android:background="@drawable/rect_yellow"
+                android:layout_margin="10dp"
+                android:text="@string/select_mode_easy" />
+
+            <corp.seedling.numbersgoround.ui.CustomTextViewHeading
+                android:id="@+id/tv_easy_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/select_mode_easy_desc" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lay_mode_inner4"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <corp.seedling.numbersgoround.ui.CustomTextView
+                android:id="@+id/tv_mode_hard"
+                android:layout_width="75dip"
+                android:layout_height="75dip"
+                android:background="@drawable/rect_yellow"
+                android:layout_margin="10dp"
+                android:text="@string/select_mode_hard" />
+
+            <corp.seedling.numbersgoround.ui.CustomTextViewHeading
+                android:id="@+id/tv_hard_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/select_mode_hard_desc" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lay_mode_inner5"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <corp.seedling.numbersgoround.ui.CustomTextView
+                android:id="@+id/tv_mode_crazy"
+                android:layout_width="75dip"
+                android:layout_height="75dip"
+                android:background="@drawable/rect_yellow"
+                android:layout_margin="10dp"
+                android:text="@string/select_mode_crazy"
+                 />
+
+            <corp.seedling.numbersgoround.ui.CustomTextViewHeading
+                android:id="@+id/tv_hard_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/select_mode_crazy_desc" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

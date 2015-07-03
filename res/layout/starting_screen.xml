@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/lib/ru.biovamp.circlelayoutexample"
+    android:id="@+id/lay_parent_start"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/game_bg_cream"
+    android:gravity="center" >
+
+    <FrameLayout
+        android:id="@+id/lay_circle_start"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:padding="10dp" >
+    </FrameLayout>
+
+    <corp.seedling.numbersgoround.ui.CustomTextView
+        android:id="@+id/tv_play_start"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@drawable/circle_play"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

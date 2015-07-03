@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Google Play game services IDs.
+Save this file as res/values/games-ids.xml in your project.
+-->
+<resources>
+
+  <string name="app_id">174657385036</string>
+  <string name="leaderboard_einsteins">CgkIzOSQ04oFEAIQAQ</string>
+  <string name="achievement_pawn_of_maths">CgkIzOSQ04oFEAIQAg</string>
+  <string name="achievement_knight_of_maths">CgkIzOSQ04oFEAIQAw</string>
+  <string name="achievement_bishop_of_maths">CgkIzOSQ04oFEAIQBA</string>
+  <string name="achievement_rook_of_maths">CgkIzOSQ04oFEAIQBQ</string>
+  <string name="achievement_king_of_maths">CgkIzOSQ04oFEAIQBg</string>
+  <string name="leaderboard_einsteins">CgkIzOSQ04oFEAIQAQ</string>
+</resources>

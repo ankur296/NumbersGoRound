@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="tv_size">50dp</dimen>
+    <dimen name="tv_bar">50dp</dimen>
+    
+     <dimen name="tv_height">60dp</dimen>
+    <dimen name="tv_width">60dp</dimen>
+        <dimen name="tv_height_gameover_screen">65dp</dimen>
+    <dimen name="tv_width_gameover_screen">65dp</dimen>
+    <dimen name="tv_margin">2dp</dimen>
+    <dimen name="tv_margin_ans">5dp</dimen>
+ <dimen name="item_bottom">12dp</dimen>
+    <dimen name="item_left">10dp</dimen>
+    <dimen name="item_right">10dp</dimen>
+    <dimen name="item_top">8dp</dimen>
+    
+    <dimen name="item_bottom_leaderboard">14dp</dimen>
+    <dimen name="item_left_leaderboard">15dp</dimen>
+    <dimen name="item_right_leaderboard">15dp</dimen>
+    <dimen name="item_top_leaderboard">9dp</dimen>
+    
+</resources>
